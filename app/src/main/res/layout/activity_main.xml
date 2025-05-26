@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Горизонтальный контейнер для Профиля и Выйти -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Профиль"
+            android:layout_weight="1"
+            style="@style/CustomButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:text="Шығу"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            style="@style/CustomButtonStyle"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonLogicGames"
+        android:text="Логикалық ойындар"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        style="@style/CustomButtonStyle"/>
+    <Button
+        android:id="@+id/buttonTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тапсырмалар"
+        android:layout_marginTop="24dp"
+        style="@style/CustomButtonStyle"/>
+    <Button
+        android:id="@+id/buttonRiddles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+
+        android:text="Жұмбақтар"
+        style="@style/CustomButtonStyle"
+        />
+
+
+
+</LinearLayout>
