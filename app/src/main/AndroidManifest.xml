@@ -31,11 +31,22 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.FirstProject" />
 
-        <activity android:name=".LogicalGamesActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".TasksActivity" />
-        <activity android:name=".RiddlesActivity" />
+        <activity
+            android:name=".LogicalGamesActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
 
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TasksActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RiddlesActivity"
+            android:exported="false" />
 
     </application>
 

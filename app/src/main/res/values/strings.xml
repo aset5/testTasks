@@ -3,6 +3,7 @@
     <string name="name_label">Аты: %1$s</string>
     <string name="username_label">Логин: %1$s</string>
     <string name="score_label">Жиналған балл: %1$d</string>
+    <string name="logo_desc" />
 
 
 </resources>
