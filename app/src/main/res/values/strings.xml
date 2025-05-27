@@ -2,6 +2,8 @@
     <string name="app_name">first project</string>
     <string name="name_label">Аты: %1$s</string>
     <string name="username_label">Логин: %1$s</string>
+    <string name="age_label">Возраст: %1$d</string>
+
     <string name="score_label">Жиналған балл: %1$d</string>
     <string name="logo_desc" />
 

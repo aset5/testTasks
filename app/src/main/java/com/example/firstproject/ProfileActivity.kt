@@ -25,6 +25,10 @@ class ProfileActivity : AppCompatActivity() {
         // Получаем имя пользователя и логин из Intent
         val name = intent.getStringExtra("currentUserName")
         val username = intent.getStringExtra("currentUserUsername")
+        val age = intent.getIntExtra("currentUserAge", 8)
+        val ageTextView = findViewById<TextView>(R.id.ageTextView)
+        ageTextView.text = getString(R.string.age_label, age)
+
 
         // Получаем накопленный общий балл из SharedPreferences
         val savedScore = prefs.getInt("total_score", 0)

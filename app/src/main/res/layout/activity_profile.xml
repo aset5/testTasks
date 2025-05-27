@@ -21,6 +21,13 @@
         android:layout_marginBottom="24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_label"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
 
     <!-- Кнопки для выбора языка -->
     <Button
